@@ -1,0 +1,14 @@
+{
+    "name": "muench-dev/github-playground",
+    "description": "Playground project by cmuench",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Muench",
+            "email": "christian@muench-worms.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
