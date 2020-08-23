@@ -3,5 +3,4 @@ foo:
     zoz: 'yes'
     mybool: false
 
-  ddd # wrong
   # Added a comment
