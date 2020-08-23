@@ -17,16 +17,6 @@ jobs:
     - name: Validate composer.json and composer.lock
       run: composer validate
 
-    - name: Lint Code Base
-      uses: github/super-linter@v3
-      env:
-        VALIDATE_ALL_CODEBASE: false
-        DEFAULT_BRANCH: master
-        VALIDATE_PHP: true
-        VALIDATE_JSON: true
-        VALIDATE_YAML: true
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-
     - name: Cache Composer packages
       id: composer-cache
       uses: actions/cache@v2
