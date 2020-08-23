@@ -4,3 +4,4 @@ foo:
     mybool: false
 
   ddd # wrong
+  # Added a comment
