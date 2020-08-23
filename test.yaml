@@ -1,0 +1,6 @@
+foo:
+  - bar:
+    zoz: 'yes'
+    mybool: false
+
+  ddd # wrong
